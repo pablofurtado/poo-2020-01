@@ -1,0 +1,47 @@
+Classe 1:
+public class FirstClass {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+
+
+
+
+Classe 2:
+public class IfElse {
+
+		public static void main (String[] args){
+			int x= 32 ; 
+			int y= 8;
+		 
+		if (x%y == 0 ){
+		System.out.println("Y e divisor de X");
+		}	
+
+		else {			
+		System.out.println("Y nao e divisor de X");
+		}
+}
+}
+
+
+
+
+Classe 3:
+import java.util.Scanner;
+public class Scan {
+
+		public static void main (String[] args){
+			
+			Scanner scan = new Scanner(System.in);
+			System.out.println("Entre com o valor do salario");
+
+			double salariouser = scan.nextDouble();
+			double salariominimo = 1045;
+			double qtdsalario = salariouser/salariominimo;
+
+			System.out.println("Sua quantidade de salarios minimos e igual a " + qtdsalario);
+	
+}
+}
